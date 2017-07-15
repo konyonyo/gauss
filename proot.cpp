@@ -45,7 +45,8 @@ int main(int argc, char* argv[]){
     if(isPrimary(i)){
       std::cout << i
        << ", primitive root: " << getPrimitiveRoot(i)
-       << ", -1 is heho joyo: " << isHehoJoyo(i - 1, i) << "\n";
+       << ", -1 is heho joyo: " << isHehoJoyo(i - 1, i)
+       << ", mod 4: " << i % 4 << "\n";
     }
   }
 
