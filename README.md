@@ -1,6 +1,6 @@
 Study for Gauss' number theory
 
-==
+====
 
 ## primitive root
 
